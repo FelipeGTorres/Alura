@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: RoyalBlue;
+  margin: 94px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+  background-image: url("https://s3.amazonaws.com/public-cdn.ibmec.br/portalibmec-content/public/term/course/course_image/banner_-_engenharia_de_computacao-min.jpg");
+  position image-orientation: center;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema buttom {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 36px;
+  background: #041832;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  border-radius: 40px;
+  margin-top 32px;
+  padding: 32 px; 
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.porjetos-item {
+  margin-left: -50px;
+  margin-right: 40px;
+  list-style-type: none;
+  font-size: 24px;
+  font-weight:400;
+  line-height: 40px;
+}
+.porjetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+.porjetos-item b {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background-image: url("https://s3.amazonaws.com/public-cdn.ibmec.br/portalibmec-content/public/term/course/course_image/banner_-_engenharia_de_computacao-min.jpg");
+}
+.dark .container {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);;
+}
+.dark .tema button {
+  background-color: LightCoral;
+}
